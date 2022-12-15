@@ -1,0 +1,13 @@
+.fad.fa-copyright:after {
+  content: "\10f1f9";
+}
+.fa-swap-opacity .fad:before, .fad.fa-swap-opacity:before, .fad:after {
+  opacity: .4;
+  opacity: var(--fa-secondary-opacity,.4);
+}
+.fad:after {
+  color: var(--fa-secondary-color,inherit);
+}
+*, ::after, ::before {
+  box-sizing: border-box;
+}
